@@ -294,11 +294,14 @@ color: var(--main-text-color);
     letter-spacing: 0.03em;
 }
 .footer {
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2094px;
-background: var(--fill-color);
+        padding: 60px 0;
+        background-color: var(--fill-color);
+        
+        
+}
+
+.footer-content {
+    padding: 0; margin: 0;
 }
 .text-logo-footer {
     font-family: "Raleway", sans-serif; 
@@ -308,7 +311,6 @@ background: var(--fill-color);
     letter-spacing: 0.03em; 
     color: var(--main-white-color);
     
-   
 }
 
 .footer-elem-item {
@@ -320,7 +322,6 @@ background: var(--fill-color);
 
 .footer-link-address {
     color: var(--main-white-color);
-    margin-left: 215px;
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1,7142;
