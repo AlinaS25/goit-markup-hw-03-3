@@ -50,6 +50,8 @@ border-bottom: 1px solid var(--card-border-color); ;
 }
 .nav-flex {
   display: flex;
+  margin-left: 93px;
+  margin-right: auto;
 }
 .logo-header {
 margin-right: 93px;
@@ -80,17 +82,14 @@ margin-right: 93px;
 
 
 .link-header {
-  padding-left: 93px;
-  padding-top: 32px;
-  padding-right: 50px;
-  padding-bottom: 32px;
+
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  display: inline-block;
+ 
 }
 
 li {
