@@ -298,12 +298,15 @@ color: var(--main-text-color);
 }
 
 .job{
-    padding: 5px 0 30px 0;
+    
     color: var(--secondary-text-color);
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.03em;
+    padding: 5px 0 30px 0;
 }
+
+
 .footer {
         padding: 60px 0;
         background-color: var(--fill-color);
