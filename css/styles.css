@@ -61,10 +61,8 @@ margin-right: 93px;
 }
 
 .nav-ul-flex {
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0%;
-  font-weight: 900;
+  display: flex;
+  gap: 50px;
 }
 
 .nav-ul-flex .link-header:hover,
