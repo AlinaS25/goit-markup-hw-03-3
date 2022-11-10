@@ -43,6 +43,11 @@ a {
 border-bottom: 1px solid var(--card-border-color); ;
 }
 
+.header-container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
 .nav-flex {
   display: flex;
 }
@@ -73,12 +78,6 @@ margin-right: 93px;
   color: var(--highlight-color);
 }
 
-.nav-flex,
-.nav-ul-flex,
-.ul-mail-flex {
-  display: flex;
-  list-style: none;
-}
 
 .link-header {
   padding-left: 93px;
@@ -99,18 +98,13 @@ li {
   text-align: -webkit-match-parent;
 }
 .ul-mail-flex {
-  width: 307px;
-  margin-top: 32px;
-  margin-left: 344px;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0%;
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
 
 .link-header-mail {
-  padding-top: 32px;
-  padding-right: 50px;
-  padding-bottom: 32px;
+  
   list-style: none;
   color: var(--secondary-text-color);
 }
