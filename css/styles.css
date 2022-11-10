@@ -28,9 +28,7 @@ ul {
   padding-right: 15px;
   margin: 0 auto;
 }
-header .container {
-  display: flex;
-}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
@@ -42,10 +40,7 @@ a {
   color: var(--main-text-color);
 }
 .header {
-  max-width: 1260px;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
+border-bottom: 1px solid var(--card-border-color); ;
 }
 
 .nav-flex {
@@ -323,9 +318,7 @@ p {
   margin-bottom: 34px;
 }
 
-.header-portfolio {
-  border-bottom: 1px solid var(--card-border-color);
-}
+
 .button-portfolio {
   width: auto;
   height: 38px;
